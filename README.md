@@ -16,7 +16,7 @@
       - [Windows OS](#windows)
   - [🛠 Installation \& Usage](#-installation--usage)
     - [Follow the Instruaction of file lab-instructions.md](./lab-instructions.md)
-    - [🙌 Contributions](#-contributions)
+  - [🙌 Contributions](#-contributions)
 
 ---
 
