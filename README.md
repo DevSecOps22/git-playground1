@@ -1,12 +1,5 @@
 # 🚀 DevOps Bar-Ilan
 
-
-## 📌 Features
-
-- **Install Git & Docker Script**
-
----
-
 ## Table of content
 
 - [🚀 DevOps Bar-Ilan](#-devops-bar-ilan)
