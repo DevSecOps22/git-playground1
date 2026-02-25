@@ -1,0 +1,11 @@
+Name: [Guy Roberts]
+Date: [2026-02-25]
+
+Lab 1 - Linux Basic Commands
+=============================
+
+1. Answer: "ll"
+2. Answer: "mkdir test"
+3. Answer: "pwd"
+4. Answer: "cp -i file1.txt file2.txt"
+5. Answer: "cat"
