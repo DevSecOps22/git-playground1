@@ -132,17 +132,32 @@ PRs, issues, and suggestions are welcome!
 git checkout -b <branch-name>
 ```
 
-- After complete the. changes, switch back into the main branch
+- We DON'T merge the changes directly into the main branch, instead we open a Pull request.
+- For the first time, we need to sync your branch with GitHub.
 ```bash
-git switch main
+git push -u origin <Your-Branch-Name>
 ```
 
-- Merge your changes with the main branch
+- After the first time sync, you can remove the flag -u
 ```bash
-git merge <Your-Branch-name>
+git push origin <Your-Branch-Name>
 ```
 
 - Open the GitHub on the browser, and open a new Pull Request (PR)
 ```url
 https://github.com/DevSecOps22/git-playground1/pulls
+```
+
+### Continue donate code
+- After first time you have donate code, we need to verify each time, that we are align with the main repo.
+
+- Switch into main branch
+```bash
+git switch main
+git pull origin main
+```
+
+- After we have sync with the remote GitHub repo, switch back into your branch.
+```bash
+git switch <Your-Branch-Name>
 ```
