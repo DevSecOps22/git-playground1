@@ -1,0 +1,13 @@
+Name: Elia
+Date: 25.2.2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch <branch name>
+2. Answer: git checkout <branch name>
+3. Answer: git fetch - Downloads changes only
+git pull - Downloads + merges changes
+4. Answer: To do merge between branch B to A  you need to enter branch A and run the command below:
+git merge B
+5. Answer: git push origin <branch-name>
