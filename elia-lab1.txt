@@ -1,0 +1,18 @@
+
+Name: Elia
+Date: 25.2.2026
+
+Lab 1 - Linux Basic Commands
+=============================
+
+1. Answer: ll-a or ls -la
+2. Answer: mkdir test
+3. Answer: pwd
+4. Answer: cp file1.txt file2.txt
+5. Answer: cat file.txt or less file.txt
+
+
+
+
+
+
