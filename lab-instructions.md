@@ -143,6 +143,27 @@ Push your `yourname` branch (which now contains both labs) to the remote reposit
 
 ---
 
+## branch structure
+```
+*   ffffff (main) Merge PR #3: david
+|\
+| * 9f8e7d6 (origin/david) Merge branch 'david-lab2' into david
+| |\
+| | * 8e7d6c5 (origin/david-lab2) Add Lab 2 answers for David
+| * | 7d6c5b4 Add Lab 1 answers for David
+| |/
+|/
+*   eeeeee Merge PR #2: guy
+|\
+| * 6c5b4a3 (origin/guy) Merge branch 'guy-lab2' into guy
+| |\
+| | * 5b4a392 (origin/guy-lab2) Add Lab 2 answers for guy
+| * | 4a39281 Add Lab 1 answers for guy
+| |/
+|/
+* 5543210 Initial commit
+
+```
 ## Common Issues and Solutions
 
 ### Issue 1: "Permission denied" when pushing
