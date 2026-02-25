@@ -1,0 +1,13 @@
+
+
+Name: Nasmat Ammar
+Date: 25/02/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch <name> 
+2. Answer: git checkout <branch>
+3. Answer: git pull it's fetch and merge
+4. Answer: run git merge A from branch B
+5. Answer: git push origin <branch> 
