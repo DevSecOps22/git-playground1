@@ -1,0 +1,11 @@
+Name: Eitan Holmes
+Date: 25/02/2026
+
+Lab 2 -Git Basic Commands
+=========================
+
+1. Answer: git branch -c 
+2. Answer: git switch <branch_name>
+3. Answer: git fetch is showing the changes without doing commit and merge, git pull is commiting and merging the changes
+4. Answer: git switch B -> git  merge A
+5. Answer: git push -u origin <local branch> 
