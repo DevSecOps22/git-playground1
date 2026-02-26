@@ -114,8 +114,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\install-git-and-docker.ps1
 #### What I have include in the script
 
 - Script will check if you have currently install Git or Docker.
-  If you have onw of the package, it will print the package version.
-- Install silent the default configuration.
+  If you have one of the package, it will print the package version.
+- Silent installtion with a default configuration. Default IDE set with ```vi``` tool.
 - Check if you have a diffrente IDE, and ask prompt if you want to change, for example: PyCharm, VS Code, etc.
 - If the script detect that you have an old version will offer if you want to upgarde the package.
 
