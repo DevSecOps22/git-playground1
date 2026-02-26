@@ -1,0 +1,14 @@
+Name: [Guy Roberts]
+Date: [2026-02-26]
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: "git branch"
+2. Answer: "git switch"
+3. Answer: "'git fetch' download changes from github but 
+            does not apply them to my branch and 'git pull'
+            does fetch and immediately merge those changes
+            into my branch"
+4. Answer: "git switch B && git merge A"
+5. Answer: "git push -U origin git-playground1"
