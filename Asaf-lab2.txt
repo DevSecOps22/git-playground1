@@ -1,0 +1,11 @@
+Name: Asaf Ben Aroya
+Date: 26.2.2026
+
+Lab 2 - Git Basic Commands
+==========================
+
+1.Answer: git branch
+2.Answer: git switch branch name
+3.Answer: fetch gets updates but dosent merge while pull does fetch + merge
+4.Answer: git merge A
+5.Answer: git push origin branch name
