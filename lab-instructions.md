@@ -7,14 +7,24 @@ In this lab, you will practice essential Git commands including branching, commi
 
 ## Lab Setup
 
-### Step 1: Clone the Repository
+#### Step 1:Fork the Repository
+
+- Start by forking the repository to your own GitHub account:
+- Click the "Fork" button in the upper right corner
+
+```url
+https://github.com/DevSecOps22/git-playground1
+```
+### Step 2: Clone the Repository
+- Clone your fork locally:
+
 ```bash
-git clone https://github.com/DevSecOps22/git-playground1.git
+git clone https://github.com/<YOUR-USERNAME>/git-playground1.git
 cd git-playground1
 ```
 you can clone to the VM or on your PC `pro tip: use vscode`
 
-### Step 2: Configure Your Git Identity (if not already done)
+### Step 3: Configure Your Git Identity (if not already done)
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
