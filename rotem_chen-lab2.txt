@@ -1,0 +1,12 @@
+Name: rotem chen
+Date: 02/03/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch <branch-name> (or git checkout -b <branch-name>)
+2. Answer: git checkout <branch-name> (or git switch <branch-name>)
+3. Answer: git fetch downloads data from remote git pull downloads AND merges it (git fetch and git merge)
+4. Answer: git switch B (branch B) 
+            git merge A (branch A) 
+5. Answer: git push origin <branch-name>
