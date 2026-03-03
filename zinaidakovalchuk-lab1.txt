@@ -1,0 +1,11 @@
+Name: Zina Kovalchuk
+Date: 26/02/2026
+
+Lab1 - Linux Basic Commands
+===========================
+
+1. ls -a
+2. mkdir test
+3. pwd
+4. cp file1.txt file2.txt
+5. cat
