@@ -1,0 +1,12 @@
+Name: Ori Shahar
+Date: 05/03/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch
+2. Answer: git switch
+3. Answer: pull does fetch + merge
+4. Answer: git switch B
+	   git merge A
+5. Answer: git push origin <branch-name>

@@ -1,0 +1,12 @@
+Name: Ori shahar
+Date: 05/03/2026
+
+Lab 1 - Linux Basic Commands
+=============================
+
+1. Answer: ll
+2. Answer: mkdir test
+3. Answer: pwd
+4. Answer: cp file1.txt file2.txt
+5. Answer: cat
+
