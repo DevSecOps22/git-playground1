@@ -1,0 +1,11 @@
+Name: Sahar
+Date: 03/02/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch <branchName>
+2. Answer: git switch <branchName>
+3. Answer: git pull contains the git fetch command and also git merge commands
+4. Answer: Make sure you are on branch B (git switch <branch B>) and merge branch A (git merge <branch A>)
+5. Answer: git push -u <upstream name> <local branch name>
