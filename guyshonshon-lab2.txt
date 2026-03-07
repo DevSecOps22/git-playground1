@@ -1,0 +1,14 @@
+Name: Guy Shonshon
+Date: 07/03/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git checkout -b <name> --OR-- git switch -c <name> (will also switch)
+2. Answer: git checkout <name> --OR-- git switch <name>
+3. Answer: git fetch downloads updates from the remote repo and updates local remote-tracking branches, without changing your current branch.
+git pull does "git fetch" and then merge or rabse them into your current branch. (depending on configuration) 
+4. Answer: git switch B
+           git merge A
+5. Answer: 1. configure remote upstream: git -u <origin> <branch-name> (i.e git -u main guyshonshon-lab1)
+           2. git push <branch-name>
