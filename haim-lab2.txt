@@ -1,0 +1,11 @@
+Name: [haim]
+Date: [25.02.26]
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch name
+2. Answer: git switch name
+3. Answer: fetch pulls latest data without changing the files, pull also change the file it fetch +merge
+4. Answer: change to brance b and do git merge A
+5. Answer: git push origin name
