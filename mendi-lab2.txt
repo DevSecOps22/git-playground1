@@ -1,0 +1,11 @@
+Name: Mendi
+Date: 25-02-2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git branch <name>
+2. Answer: git checkout <branch>
+3. Answer: git fetch downloads changes from remote without merging, git pull downloads and merges them into your current branch
+4. Answer: switch to branch B, then run git merge A
+5. Answer: git push origin <branch>
