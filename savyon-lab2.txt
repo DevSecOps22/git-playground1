@@ -1,0 +1,12 @@
+Name: Savyon Shaham
+Date: 25.2.2026
+
+Lab 2 - Git Basic Commands
+==========================
+
+1. Answer: git branch new-branch-name
+2. Answer: git switch branch-name
+3. Answer: Git fetch updates the local repo with the changes of the remote repo,
+while git pull updates the changes and automatically merges them in the local code. 
+4. Answer: git merge A (B is the current branch)
+5. Answer: git push
