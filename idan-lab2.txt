@@ -1,0 +1,11 @@
+Name: Idan Zohar
+Date: 16/03/2026
+
+Lab 2 - Git Basic Commands
+===========================
+
+1. Answer: git switch -C
+2. Answer: git switch
+3. Answer: git fetch fethes the changes and git pull both fetches the changes and merges them
+4. Answer: git merge
+5. Answer: git push
