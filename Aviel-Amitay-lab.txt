@@ -1,0 +1,12 @@
+Name: Aviel Amitay
+Date:Wed Feb 25 15:33:32 IST 2026
+
+Lab 1 - Linux Basic Commands
+=============================
+
+1. ls -lah 
+2. mkdir 
+3. rmdir: 
+4. rm -f OR rm -rf 
+5. sudo -i
+6. apt install
