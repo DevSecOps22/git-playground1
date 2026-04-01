@@ -1,0 +1,13 @@
+Name: Zina Kovalchuk
+Date: 26/02/2026
+
+Lab 2 - Git Basic Commands 
+==========================
+
+1. git branch <branchsname> 
+2. git switch <branchsname>
+3. git fetch - downloads changes without affecting the local branch
+   git pull - downloads changes and merges them into the local branch
+4. git checkout b
+   git merge a
+5. git push origin <branchsname>
