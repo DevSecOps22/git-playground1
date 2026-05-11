@@ -7,12 +7,53 @@ The first task is a small game - generating a random string filled with
  from the file.
 '''
 import random
+import os
+from io import TextIOWrapper
 
 FORWARD = 1
 BACKWARD = 2
 MAX_RANDOM_REPEAT = 20
 MIN_RANDOM_REPEAT = 1
 GAME_TEXT = "TREASURE"
+HIGHSCORE_FILE = "highscore.txt"
+
+def read_from_highscore_file(file:TextIOWrapper):
+    highscore_list = []
+    for line in file:
+        read = line.split("\t")
+        score = int(read[0])
+        name = read[1]
+        highscore_list.append((score, name))
+    return highscore_list
+
+def check_position(score, highscores):
+    for n in range(len(highscores)):
+        if score < highscores[n][0]:
+            return n
+    return len(highscores)
+
+
+def insert_highscore(score, highscores):
+    player_name = input("You got a new highscore!\nPlease enter your name: ")
+    high_score_position = check_position(score, highscores)
+    highscores.insert(high_score_position, (score, player_name))
+    if len(highscores) > 10:
+        highscores.pop()
+    with open(HIGHSCORE_FILE, "w") as file:
+        for item in highscores:
+            file.write(str(item[0]) + "\t" + str(item[1]) + "\n")
+
+def check_highscore(score):
+    if not os.path.exists(HIGHSCORE_FILE):
+        open(HIGHSCORE_FILE, "w").close()
+    with open(HIGHSCORE_FILE, "r") as file:
+        highscores = read_from_highscore_file(file)
+        if len(highscores) < 10:
+            insert_highscore(score, highscores)
+        else:
+            if score < highscores[-1][0]:
+                insert_highscore(score, highscores)
+
 
 def create_file(file_name, text):
     '''
@@ -94,6 +135,7 @@ def game_handler(game_text):
             print(f"Try again until you hit the {GAME_TEXT}")
 
     print(f"Congratulations, you hit the treasure!\nIt took you {total_moves} moves.")
+    check_highscore(total_moves)
 
 create_file("treasure.txt", create_text())
 game_text = read_file_line("treasure.txt")
