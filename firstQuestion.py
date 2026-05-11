@@ -18,8 +18,15 @@ GAME_TEXT = "TREASURE"
 HIGHSCORE_FILE = "highscore.txt"
 
 def read_from_highscore_file(file:TextIOWrapper):
+    '''
+    a function that reads from a highscore file
+    :param file: the file to read
+    :return: a list of the highscores in the file (List of tuples)
+    '''
     highscore_list = []
     for line in file:
+        if line.strip() == '':
+            continue
         read = line.split("\t")
         score = int(read[0])
         name = read[1]
@@ -27,6 +34,12 @@ def read_from_highscore_file(file:TextIOWrapper):
     return highscore_list
 
 def check_position(score, highscores):
+    '''
+    a function that checks the highscore position in the overall highscore table
+    :param score: the score the player just got
+    :param highscores:  the highscores table
+    :return: the position of the score in the highscore list
+    '''
     for n in range(len(highscores)):
         if score < highscores[n][0]:
             return n
@@ -34,19 +47,31 @@ def check_position(score, highscores):
 
 
 def insert_highscore(score, highscores):
+    '''
+    a function that handles the highscore insertion to the highscore table file
+    and keeps the highscore table with at most 10 scores
+    :param score: the score the player just got
+    :param highscores:  the highscores table
+    :return: None
+    '''
     player_name = input("You got a new highscore!\nPlease enter your name: ")
     high_score_position = check_position(score, highscores)
     highscores.insert(high_score_position, (score, player_name))
     if len(highscores) > 10:
         highscores.pop()
-    with open(HIGHSCORE_FILE, "w") as file:
+    with open(HIGHSCORE_FILE, "w", encoding="utf-8") as file:
         for item in highscores:
             file.write(str(item[0]) + "\t" + str(item[1]) + "\n")
 
 def check_highscore(score):
+    '''
+    a function that checks if the score it gets as an input manage to get inside the highscore table
+    :param score: the score the player just got
+    :return: None.
+    '''
     if not os.path.exists(HIGHSCORE_FILE):
-        open(HIGHSCORE_FILE, "w").close()
-    with open(HIGHSCORE_FILE, "r") as file:
+        open(HIGHSCORE_FILE, "w", encoding="utf-8").close()
+    with open(HIGHSCORE_FILE, "r", encoding="utf-8") as file:
         highscores = read_from_highscore_file(file)
         if len(highscores) < 10:
             insert_highscore(score, highscores)
